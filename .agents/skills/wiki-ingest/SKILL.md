@@ -50,5 +50,6 @@ When the user provides a file path in `raw/` or a YouTube URL, execute the follo
   ```
   (Include concise bullet details underneath if helpful.)
 
-## 5. Report Concisely
+## 5. Verify Touched Files & Report Concisely
+- Verify **only the files created or updated in this ingest** (valid `type`/`tags`/`sources`/`updated` frontmatter, valid `[[wikilinks]]`, and `wiki/index.md` + `wiki/log.md` updated). Do **not** scan unrelated existing notes in `wiki/`; use `/wiki-lint` for full-vault audits.
 - Summarize to the user: which source was read, which files in `wiki/` were created or updated, and any notable connections or contradictions discovered with existing knowledge.

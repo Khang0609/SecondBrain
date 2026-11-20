@@ -97,10 +97,17 @@ When answering questions using SecondBrain:
 3. Answer clearly in English (unless the user explicitly asks for another language in chat) with `[[wikilink]]` citations.
 4. If the answer yields a durable cross-source insight, offer to save it to `wiki/syntheses/` and update `wiki/index.md` and `wiki/log.md`.
 
-### C. Lint (Wiki Health Check)
-When asked to audit or clean up the wiki:
+### C. Lint (`/wiki-lint` — Full-Vault Health Check)
+When explicitly asked to audit or clean up the wiki, follow `.agents/skills/wiki-lint/SKILL.md`:
 1. Check for broken `[[wikilinks]]` (links with no matching target file).
 2. Check for orphan pages (missing from `wiki/index.md` or lacking inbound links).
 3. Verify all content pages have valid Dataview YAML frontmatter (`type`, `tags`, `sources`, `updated`).
 4. Flag unresolved contradictions or recurring concepts that deserve their own atomic page.
 5. Report findings, apply safe fixes, and log the audit in `wiki/log.md`.
+
+---
+
+## 6. Future Scaling Threshold (Large-Scale Upgrade Trigger)
+
+- **Trigger**: When `wiki/` reaches **500+ notes** (or `wiki/index.md` exceeds **~300 lines / ~30 KB**).
+- **Action**: Remind the user that it is time to upgrade from a single flat `wiki/index.md` to **domain-specific MOCs (Maps of Content)** and **Obsidian Bases / Dataview** queries, keeping `wiki/index.md` as a lightweight top-level directory.
