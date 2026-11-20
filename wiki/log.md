@@ -12,3 +12,8 @@
 - **Raw**: `raw/youtube/Claude Làm Nhân Vật 2D？ [mZvDTFSCq5M].vi.vtt`
 - **Source Page**: [[claude-2d-character-animation-workflow]]
 - **Created**: [[code-driven-2d-asset-pipeline]], [[quantitative-style-measurement]], [[skill-driven-agent-workflows]], [[claude-code]], [[svg]], [[adobe-animate]]
+
+## [2026-11-20] ingest | Inference on the Variances Lecture (PDF)
+- **Raw**: `raw/docs/inference_on_var.pdf`
+- **Source Page**: [[inference-on-the-variances-lecture]]
+- **Created**: [[gamma-and-erlang-distributions]], [[chi-square-variance-inference]], [[f-distribution-variance-test]], [[le-xuan-dai]]

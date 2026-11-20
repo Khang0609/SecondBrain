@@ -1,12 +1,13 @@
 # Wiki Index
 
-> Master catalog of all pages in **SecondBrain**. Always read this file first before querying, ingesting, or linting.
+> Master catalog of all pages in **Second Brain**. Always read this file first before querying, ingesting, or linting.
 > Entry format: `- [[page-slug|Title]] — One-line description (updated: YYYY-MM-DD)`
 
 ---
 
 ## Sources
 - [[claude-2d-character-animation-workflow|Claude Builds 2D Animated Characters Without Drawing]] — 4-step code-driven pipeline using Claude Code, Python/SVG, and measured style specs to create 19 animated 2D characters (updated: 2026-11-20)
+- [[inference-on-the-variances-lecture|Inference on the Variances (Lecture Notes)]] — HCMUT-OISP lecture covering Erlang/Gamma waiting-time distributions, chi-square one-sample variance inference, and F-test variance comparison (updated: 2026-11-20)
 
 ---
 
@@ -14,6 +15,9 @@
 - [[code-driven-2d-asset-pipeline|Code-Driven 2D Asset Pipeline]] — Generating consistent 2D sprites and animations via modular LLM-written SVG/PNG code instead of raster AI or manual drawing (updated: 2026-11-20)
 - [[quantitative-style-measurement|Quantitative Style Measurement]] — Converting visual reference samples into normalized numerical ratios (`D` unit) and using cropped visual critiques (updated: 2026-11-20)
 - [[skill-driven-agent-workflows|Skill-Driven Agent Workflows]] — Packaging multi-step AI pipelines, reference specs, and known-bug registries into reusable, self-improving Skills (updated: 2026-11-20)
+- [[gamma-and-erlang-distributions|Gamma and Erlang Distributions]] — Poisson waiting-time distributions, Gamma function properties, and the special-case bridge to chi-square (updated: 2026-11-20)
+- [[chi-square-variance-inference|Chi-Square Distribution & One-Sample Variance Inference]] — Pivotal statistic `(n-1)S^2/sigma^2`, two-sided/one-sided confidence intervals, and one-sample variance hypothesis tests (updated: 2026-11-20)
+- [[f-distribution-variance-test|F-Distribution & Two-Sample Variance Test]] — Ratio of independent scaled chi-squares, quantile reciprocal identity, and two-sample F-tests for equal variances (updated: 2026-11-20)
 
 ---
 
@@ -21,6 +25,7 @@
 - [[claude-code|Claude Code]] — Anthropic's agentic coding environment used to measure styles, generate Python/SVG assets, inspect frames, and build Skills (updated: 2026-11-20)
 - [[svg|SVG (Scalable Vector Graphics)]] — Text-based, resolution-independent vector format ideal for LLM-generated modular 2D game assets (updated: 2026-11-20)
 - [[adobe-animate|Adobe Animate]] — 2D animation tool whose plugins and VFX files provide extractable 24/30 fps keyframe timing patterns (updated: 2026-11-20)
+- [[le-xuan-dai|Dr. Lê Xuân Đại]] — Lecturer at HCMUT-OISP Department of Applied Mathematics and author of the Inference on the Variances lecture notes (updated: 2026-11-20)
 
 ---
 
