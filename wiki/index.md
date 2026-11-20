@@ -9,6 +9,7 @@
 - [[claude-2d-character-animation-workflow|Claude Builds 2D Animated Characters Without Drawing]] — 4-step code-driven pipeline using Claude Code, Python/SVG, and measured style specs to create 19 animated 2D characters (updated: 2026-11-20)
 - [[inference-on-the-variances-lecture|Inference on the Variances (Lecture Notes)]] — HCMUT-OISP lecture covering Erlang/Gamma waiting-time distributions, chi-square one-sample variance inference, and F-test variance comparison (updated: 2026-11-20)
 - [[simple-linear-regression-and-correlation-lecture|Simple Linear Regression and Correlation (Lecture Notes)]] — HCMUT-OISP lecture covering OLS regression, R^2, t-inference for coefficients, correlation r_XY, and sample regression lines (updated: 2026-11-20)
+- [[analysis-of-variance-anova-lecture|Analysis of Variance (ANOVA) (Lecture Notes)]] — HCMUT-OISP lecture covering single-factor ANOVA F-tests, unbalanced designs, and Fisher's LSD multiple comparisons (updated: 2026-11-20)
 - [[fet-english-co2037-lecture|CO2037 FET Lecture Slides]] — HCMUT CO2037 lecture slides covering JFET, D-MOSFET, and E-MOSFET theory and biasing (updated: 2026-11-20)
 - [[bjt-biasing-co2037-lecture|CO2037 BJT Biasing Lecture Slides]] — HCMUT CO2037 lecture slides covering Q-point analysis, DC load lines, and worked biasing examples (updated: 2026-11-20)
 - [[chapter-5-hdl-behavioral-model-source|Digital Design with HDL — Chapter 5: Behavioral Model]] — HCMUT CSE lecture slides by Cuong Pham-Quoc on Verilog procedural blocks and assignments (updated: 2026-11-20)
@@ -17,6 +18,7 @@
 - [[chapter-4-thermochemistry-source|General Chemistry — Chapter 4: Thermochemistry]] — Lecture slides on enthalpy, entropy, Second Law, and Gibbs free energy (updated: 2026-11-20)
 - [[chapter-5-equilibrium-source|General Chemistry — Chapter 5: Chemical Equilibrium]] — Lecture slides on equilibrium constants Kc/Kp and Le Chatelier's Principle (updated: 2026-11-20)
 - [[the-complete-book-of-five-rings|The Complete Book of Five Rings]] — Miyamoto Musashi's strategic treatise on martial discipline, adaptability, and mastery (updated: 2026-11-20)
+- [[cli-anything-repo|HKUDS/CLI-Anything (GitHub)]] — Open-source 7-phase CLI harness generator and CLI-Hub registry making desktop/GUI software agent-native (updated: 2026-11-20)
 
 ---
 
@@ -41,6 +43,7 @@
 - [[gamma-and-erlang-distributions|Gamma and Erlang Distributions]] — Poisson waiting-time distributions, Gamma function properties, and the special-case bridge to chi-square (updated: 2026-11-20)
 - [[chi-square-variance-inference|Chi-Square Distribution & One-Sample Variance Inference]] — Pivotal statistic `(n-1)S^2/sigma^2`, confidence intervals, and one-sample variance hypothesis tests (updated: 2026-11-20)
 - [[f-distribution-variance-test|F-Distribution & Two-Sample Variance Test]] — Ratio of independent scaled chi-squares, reciprocal quantiles, and two-sample F-tests (updated: 2026-11-20)
+- [[single-factor-anova-and-fishers-lsd|Single-Factor ANOVA & Fisher's LSD]] — Partitioning SST = SSTr + SSE, ANOVA F-test for treatment means, and Fisher's LSD pairwise comparisons (updated: 2026-11-20)
 - [[simple-linear-regression-ols|Simple Linear Regression (OLS)]] — Least-squares estimators, residual variance SS_E/(n-2), ANOVA decomposition, R^2, and t-inference (updated: 2026-11-20)
 - [[sample-correlation-and-regression-line|Sample Correlation & Regression Line]] — Bivariate correlation tables, Pearson r_XY interpretation, conditional means, and linear fit (updated: 2026-11-20)
 - [[random-variables-and-probability|Random Variables & Probability]] — Discrete vs. continuous random variables, PMF/PDF/CDF, expected value, variance, and standard deviation (updated: 2026-11-20)
@@ -80,6 +83,7 @@
 - [[github-actions|GitHub Actions]] — CI/CD automation platform for Node.js/pnpm pipelines with concurrency and quality gates (updated: 2026-11-20)
 - [[radix-ui|Radix UI]] — Unstyled, accessible headless React component primitives library (updated: 2026-11-20)
 - [[frontend-dev-tooling|Frontend Dev Tooling (pnpm & Husky)]] — Fast content-addressable package management with pnpm and Git pre-commit hooks via Husky (updated: 2026-11-20)
+- [[cli-anything|CLI-Anything]] — Apache-2.0 Python/Click toolkit and CLI-Hub ecosystem wrapping 50+ GUI apps into agent-native CLIs (updated: 2026-11-20)
 
 ---
 

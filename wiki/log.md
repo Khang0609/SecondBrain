@@ -28,3 +28,14 @@
 - **Source Vault**: `E:\OneDrive\New_file\Obisidian\My Note My Life` (read-only; copied 7 PDFs to `raw/docs/` and 1 PNG to `raw/media/`)
 - **Skipped**: `AI làm con người thoái hóa.md` (per user request), `0 B` stubs, and `3 - Tags/` stub hubs
 - **Created**: 39 normalized English pages across `wiki/sources/` (8), `wiki/concepts/` (28), and `wiki/entities/` (3), including consolidated glossaries (`electrical-engineering-glossary`, `academic-english-vocabulary`)
+
+## [2026-11-20] ingest | Analysis of Variance (ANOVA) Lecture (PDF)
+- **Raw**: `raw/docs/ANOVA.pdf`
+- **Source Page**: [[analysis-of-variance-anova-lecture]]
+- **Created**: [[single-factor-anova-and-fishers-lsd]]
+- **Updated**: [[le-xuan-dai]]
+
+## [2026-11-20] ingest | HKUDS/CLI-Anything (GitHub)
+- **URL**: `https://github.com/HKUDS/CLI-Anything`
+- **Source Page**: [[cli-anything-repo]]
+- **Created**: [[cli-anything]]

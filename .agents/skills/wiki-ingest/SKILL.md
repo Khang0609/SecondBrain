@@ -8,23 +8,27 @@ description: >-
 
 # Wiki Ingest — Knowledge Ingestion Workflow
 
-When the user provides a file path in `raw/` or a YouTube URL, execute the following steps in order. All notes created or updated in `wiki/` **must be written in English**, even if the source in `raw/` is in Vietnamese or another language.
+**Vault Root**: `E:\OneDrive\New_file\Obisidian\Second Brain` (use this root path even when invoked from another project).
+
+When the user provides a file path in `raw/` (or elsewhere) or a YouTube URL, execute the following steps in order. All notes created or updated in `wiki/` **must be written in English**, even if the source in `raw/` is in Vietnamese or another language.
 
 ## 1. Preprocess the Source
+- **GitHub Repository URL** (`github.com/<owner>/<repo>`):
+  Delegate to the private sub-workflow at [references/github-repo.md](./references/github-repo.md) and follow it end-to-end (uses GitHub MCP to inspect `README.md`, repo structure, and manifests without cloning).
 - **YouTube URL**:
   Run:
   ```powershell
-  python .agents/skills/wiki-ingest/scripts/prepare_source.py "<URL>"
+  python "E:\OneDrive\New_file\Obisidian\Second Brain\.agents\skills\wiki-ingest\scripts\prepare_source.py" "<URL>"
   ```
   Read the generated `.srt` file in `raw/youtube/`. If the video has no subtitles or relies heavily on visuals, slides, or code on screen, re-run with `--download-video`:
   ```powershell
-  python .agents/skills/wiki-ingest/scripts/prepare_source.py "<URL>" --download-video
+  python "E:\OneDrive\New_file\Obisidian\Second Brain\.agents\skills\wiki-ingest\scripts\prepare_source.py" "<URL>" --download-video
   ```
   Then inspect the downloaded `.mp4` directly.
 - **`.docx`, `.pptx`, `.xlsx`**:
   Run:
   ```powershell
-  python .agents/skills/wiki-ingest/scripts/prepare_source.py "<file-path>"
+  python "E:\OneDrive\New_file\Obisidian\Second Brain\.agents\skills\wiki-ingest\scripts\prepare_source.py" "<file-path>"
   ```
   Read the extracted `.md` file in `raw/.extracted/`.
 - **`.pdf`, images (`.png`, `.jpg`), local video (`.mp4`), audio, or `.md`**:
