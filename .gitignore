@@ -1,0 +1,16 @@
+# Obsidian workspace state (changes constantly on open/close)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Temporary extracted cache
+raw/.extracted/
+.tmp_extracted/
+
+# Large downloaded YouTube videos (keep .vtt/.srt/.md transcripts)
+raw/youtube/*.mp4
+raw/youtube/*.webm
+raw/youtube/*.mkv
+
+# Python cache
+__pycache__/
+*.pyc
