@@ -22,8 +22,9 @@ if hasattr(sys.stdout, "reconfigure"):
 if hasattr(sys.stderr, "reconfigure"):
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
-OUT_DIR = Path("raw/.extracted")
-YT_DIR = Path("raw/youtube")
+VAULT_ROOT = Path(__file__).resolve().parents[4]
+OUT_DIR = VAULT_ROOT / "raw" / ".extracted"
+YT_DIR = VAULT_ROOT / "raw" / "youtube"
 OFFICE_EXTENSIONS = {".docx", ".pptx", ".xlsx"}
 
 
